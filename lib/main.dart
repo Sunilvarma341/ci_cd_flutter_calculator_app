@@ -87,7 +87,8 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
       appBar: AppBar(
         backgroundColor: Colors.blue,
         title: Text('Simple Calculator')),
-      body: Padding(
+      body: Container(
+        color: Colors.pink[50],
         padding: const EdgeInsets.all(20.0),
         child: Column(
           children: [
