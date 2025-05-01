@@ -82,6 +82,13 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
   }
 
   @override
+  void dispose() {
+    num1Controller.dispose();
+    num2Controller.dispose();
+    super.dispose();
+  }
+  
+  @override
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
