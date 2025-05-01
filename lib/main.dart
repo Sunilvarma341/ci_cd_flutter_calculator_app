@@ -84,7 +84,9 @@ class _CalculatorScreenState extends State<CalculatorScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text('Simple Calculator')),
+      appBar: AppBar(
+        backgroundColor: Colors.blue,
+        title: Text('Simple Calculator')),
       body: Padding(
         padding: const EdgeInsets.all(20.0),
         child: Column(
